@@ -1,6 +1,6 @@
 {% set name = "perl-compress-raw-zlib" %}
-{% set version = "2.202" %}
-{% set sha256 = "96e20946eb457a32d2d7a0050b922e37b5ada41246bcdc824196d3f7c4da91b7" %}
+{% set version = "2.205" %}
+{% set sha256 = "51e3fcb22bd7dae48313df4241a31c81acda6085c6921fd06c6b1e1a011b82ee" %}
 
 package:
   name: {{ name }}
@@ -39,7 +39,7 @@ about:
   home: https://metacpan.org/dist/Compress-Raw-Zlib
   license: GPL-1.0-or-later OR Artistic-1.0-Perl
   license_family: OTHER
-  summary: 'Basic utilities for writing tests.'
+  summary: Basic utilities for writing tests.
   license_file:
     - {{ environ["PREFIX"] }}/man/man1/perlartistic.1
     - {{ environ["PREFIX"] }}/man/man1/perlgpl.1
