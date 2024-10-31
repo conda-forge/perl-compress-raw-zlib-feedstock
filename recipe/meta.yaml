@@ -1,6 +1,6 @@
 {% set name = "perl-compress-raw-zlib" %}
-{% set version = "2.202" %}
-{% set sha256 = "96e20946eb457a32d2d7a0050b922e37b5ada41246bcdc824196d3f7c4da91b7" %}
+{% set version = "2.213" %}
+{% set sha256 = "56b21c99cb3a3a7f7876a74dd05daa3f41fc9143ddd4dc98f8e46710a106af45" %}
 
 package:
   name: {{ name }}
@@ -24,8 +24,10 @@ requirements:
   build:
     - {{ stdlib('c') }}            # [not win]
     - {{ compiler('c') }}          # [not win]
+    - {{ stdlib("c") }}            # [not win]
     - {{ stdlib('m2w64_c') }}      # [win]
     - {{ compiler('m2w64_c') }}    # [win]
+    - {{ stdlib("m2w64_c") }}      # [win]
     - make
   host:
     - perl
