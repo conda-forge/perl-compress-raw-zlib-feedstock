@@ -7,33 +7,30 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-compress-r
 About perl-compress-raw-zlib
 ----------------------------
 
-Home: https://metacpan.org/dist/Compress-Raw-Zlib
+Home: https://metacpan.org/pod/Compress::Raw::Zlib
 
 Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
 
 Summary: Basic utilities for writing tests.
+
+Documentation: https://metacpan.org/pod/Compress::Raw::Zlib
 
 About perl-compress-raw-zlib
 ----------------------------
 
-Home: https://metacpan.org/dist/Compress-Raw-Zlib
+Home: https://metacpan.org/pod/Compress::Raw::Zlib
 
 Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
 
 Summary: Basic utilities for writing tests.
+
+Documentation: https://metacpan.org/pod/Compress::Raw::Zlib
 
 Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/perl-compress-raw-zlib-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/perl-compress-raw-zlib-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
@@ -211,4 +208,5 @@ Feedstock Maintainers
 =====================
 
 * [@cbrueffer](https://github.com/cbrueffer/)
+* [@conda-forge/perl-packagers](https://github.com/orgs/conda-forge/teams/perl-packagers/)
 
