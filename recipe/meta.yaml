@@ -1,6 +1,6 @@
 {% set name = "perl-compress-raw-zlib" %}
-{% set version = "2.213" %}
-{% set sha256 = "56b21c99cb3a3a7f7876a74dd05daa3f41fc9143ddd4dc98f8e46710a106af45" %}
+{% set version = "2.214" %}
+{% set sha256 = "5eea0c05c7b01dc93b620f04c89176eefb5002586ca0bebae3b8c2e70920e62e" %}
 
 package:
   name: {{ name }}
@@ -12,7 +12,7 @@ source:
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win]
   script:
     - perl Makefile.PL INSTALLDIRS=vendor NO_PERLLOCAL=1 NO_PACKLIST=1
     - make
